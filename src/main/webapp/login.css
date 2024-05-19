@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  justify-content: center;
+  background: #292929;
+  padding: 80px;
+  border-radius: 15px;
+  border: 1px solid #222222;
+  box-shadow: 0 15px 20px 1px #696969;
+}
+form .input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+form .input label {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+form .input input {
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #222222;
+  outline: none;
+  background: #333;
+  color: antiquewhite;
+}
+form .input input:focus {
+  border: 1px solid #fcfcfc;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid #222222;
+  background: #333;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+form button:hover {
+  background: #222222;
+}
+form a {
+  color: #fcfcfc;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.2s ease-in-out;
+}
+form a:hover {
+  color: #fcfcfc;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+}
